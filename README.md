@@ -47,6 +47,7 @@ There are three neuron layers written in the program but only two of which are a
 
 - Neuron number can be changed on: `net = tflearn.fully_connected(net, 16)`
 - Epoch and batch-size can be edited on: `model.fit(training, output, n_epoch=2000, batch_size=10, show_metric=True)`
+- Tensorflow version 1.13.2 required.
 
 Note: Program will not re-learn unless the previous learning data has been erased.
 

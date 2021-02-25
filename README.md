@@ -10,7 +10,7 @@ This is a deep-learning AI bot programmed in python with the categorical feature
  - Activate Discord: [Link](https://discord.gg/RxahGwTGmG)
  
  # Primary Functions
- There are two types of primary functions - one set accessable for any members within the server, and the other set where it is only accessable by the admin. Admin functions are all password gated and would require the admin to enter the passcode in the back-end terminal before the function would excute.
+ There are two types of primary functions - one set accessable by all members within the server and the other set is only accessable by the admin. Admin functions are all password gated and would require the admin to enter the passcode in the back-end terminal before the function would excute.
  
 **Public Functions**
 

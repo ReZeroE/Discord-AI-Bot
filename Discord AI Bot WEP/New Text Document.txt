@@ -1,5 +1,0 @@
-        {"tag": "no_replies",
-        "patterns": ["what is this episode about?", "what is episode about", "do you do next ep", "what is in next ep"],
-        "responses": [" "],
-        "context_set": ""
-        }

@@ -43,11 +43,22 @@ The bot is programmed in python with its learning model based on the categorical
 
 I've also tried the multi-regression models that are generally used for data evalution/prediction and it did not work very well in this case. 
 
-There are three neuron layers written in the program but only two of which are active at the moment. I've ran several tests testing out what variation/combination in the number of neuron layers, number of neuron each layer, epoch, and batch-size would do to the accuracy of the learning process and found that these values result in the highest accuracy with the best efficiency for the given input. 
+There are three neuron layers written in the program but only two of which are active at the moment. I've ran multiple tests calibrating the following values for the best accuracy and efficiency with the given input (json):
+ 1. Neuron Layers
+ 2. Neuron Each Layer
+ 3. Epoch + Batch-size
+ 
+ The values I've implements are of the best accuracy and efficiency as of right now.
 
 - Neuron number can be changed on: `net = tflearn.fully_connected(net, 16)`
 - Epoch and batch-size can be edited on: `model.fit(training, output, n_epoch=2000, batch_size=10, show_metric=True)`
-- Tensorflow version 1.13.2 required.
+
+**Following modules are used for deep-learning**
+- numpy (version==1.19.5)
+- Tensorflow (version==1.13.2) -> Required
+- tflearn (verions==0.5.0)
+- nltk (veriosn==3.5)
+- pickle
 
 Note: Program will not re-learn unless the previous learning data has been erased.
 

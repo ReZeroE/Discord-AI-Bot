@@ -1,0 +1,118 @@
+{"replyData": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you?", "Is anyone there?", "Hello", "Good day", "Whats up", "sup", "How are you doing?", "hoi", "hola", "yo", "hey", "bonjour"],
+         "responses": ["Hello!", "Good to see you!", "Hi there!, Hey, What's up?", "Howdy!", "Great to see you!", "Look who it is!"],
+         "context_set": ""
+        },
+        {"tag": "greeting_reply",
+         "patterns": ["Nice to meet you too", "good to see you too", "what's up"],
+         "responses": ["How are you doing today?", "How's going!", "Ah! How are you?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day", "bye", "peace"],
+         "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!", "Cya!", "Peace!"],
+         "context_set": ""
+        },
+        {"tag": "bot_info",
+         "patterns": ["Who are you?", "What is this bot?", "this bot", "bot info", "ReZeroK's bot", "who r u?", "what's your name?", "what are you?", "what is your name?"],
+         "responses": ["I am Milim! A fully customizable deep-learning Demon Lord (AI bot) created by ReZeroK!\n```Bot Version: 1.5 (beta testing)\nProgrammed by: ReZeroK\nBase language: python\nLibraries: tflearn, tensorflow, numpy, blablabla\nCurrent version completion date: 2/24/2020```"],
+         "context_set": ""
+        },
+        {"tag": "robot_asked",
+         "patterns": ["Are you an robot?", "r u robot?", "robot you?"],
+         "responses": ["Yes! I am Milim, an AI chatbot coded by ReZeroK! I have no perception of other bots though.", "Yup! I am Milim, an DL-AI chatbot!"],
+         "context_set": ""
+        },
+        {"tag": "Milim",
+         "patterns": ["who is Milim?", "milim who?", "are you milim?", "do you know milim?"],
+         "responses": ["That's me! I am Milim the Demon Lord!", "I am Milim! The strongest Demon Lord ever!"],
+         "context_set": ""
+        },
+        {"tag": "Rimuru",
+         "patterns": ["who is Rimuru?", "Rimuru who?", "are you Rimuru?", "do you know Rimuru?"],
+         "responses": ["Rimuru is my bestie! I should probably go grab some honey from him next time I see him!", "Rimuru is my best friend!"],
+         "context_set": ""
+        },
+        {"tag": "age",
+         "patterns": ["how old", "what is your age", "how old are you", "age?"],
+         "responses": ["You humans can't possible perceive how old I am!", "Truth is, I don't quite remember ~(>_>)~", "I wonder the same thing sometimes..."],
+         "context_set": ""
+        },
+        {"tag": "programmer",
+         "patterns": ["who programmed you?", "programmed by?", "your owner", "who is your owner?", "who coded you?", "coded by?"],
+         "responses": ["I am programmed by ReZeroK", "ReZeroK!", "ReZeroK programmed me with python!"],
+         "context_set": ""
+        },
+        {"tag": "function_info",
+         "patterns": ["what can you do?", "what are your functions", "your function?", "function menu", "your functionalities?", "can you?", "how do I use you?", "help"],
+         "responses": ["As of right now (ver.1.5), there are only a few coded-in functions for me. Version 1.6 is currently under development.", "As of right now, there isn't much that I can do  (ReZeroK is too lazy to program them)"],
+         "context_set": ""
+        },
+        {"tag": "hw help",
+         "patterns": ["Can you do my homework?", "do my homework for me", "help with homework", "do my hw for me", "can you do my homework", "hw help", "I have so much homework"],
+         "responses": ["Sorry! I can't help you with any homework ;) But I know you can do it!", "I hate homework!", "I know you can do it!"],
+         "context_set": ""
+        },
+
+
+
+        {"tag": "when_new_episode",
+         "patterns": ["when is the new episode coming out?", "when new episode?", "when is the next episode?", "next episode time?", "next episode coming out when?", "when can the next episode come out?", "when is the next ep?", "whens the next ep", "next ep time?", "when next ep?", "next ep airing time", "when's the next episode coming out?", "when is the next episode of wonder egg priority?", "when is the next ep airing?", "whens the next ep airing", "when the next episode airing", "how long until the next ep", "how much time left until the next episode?", "when will ep"],
+         "responses": ["Let me think..."],
+         "context_set": ""
+        },
+        {"tag": "where_to_watch",
+         "patterns": ["where can I watch this anime?", "where to watch?", "where can I watch this anime?", "where can I watch this?", "what platform is this on?", "what platform can be this watched on?"],
+         "responses": ["Currently, the anime Wonder Egg Priority has been licenced by **Funimation**(North America + British Isles), **AnimeLab**(Australia and New Zealand), and **Bilibili**(Southeast Asia)."],
+         "context_set": ""
+        },
+        {"tag": "author",
+         "patterns": ["who directed wonder egg priority?", "who's the author of wonder egg priority?", "who is the author", "who is the author of wonder egg priority", "who wrote wonder egg priority", "who directed this anime?", "who's the author of this anime?", "who is the author", "who is the author of this anime", "who wrote the story this anime", "author", "director", "who is the directior", "director of the anime"],
+         "responses": ["The anime Wonder Egg Priority is directed by **Shin Wakabayashi** and the story is written by **Shinji Nojima**!"],
+         "context_set": ""
+        },
+        {"tag": "studio",
+         "patterns": ["which studio?", "which studio made wonder egg priority", "what studio made wonder egg priority", "which studio made this anime", "what studio made this anime", "which studio animated this series", "animation studio?", "what is the studio"],
+         "responses": ["Wonder Egg Priority is animated by the studio **CloverWorks**!"],
+         "context_set": ""
+        },
+        {"tag": "music",
+         "patterns": ["what music","Music in this series", "music in the anime", "ost in the anime", "what is the op?", "what is the ed?", "op of the anime", "ed of the anime", "op of wonder egg priority", "ed of wonder egg priority", "what is the op called","what is the ep called", "what songs are in the anime", "songs in wonder egg priority", "anime OST", "who song the op", "who song the ed", "ed", "op", "ending song", "opening song", "what is the op?", "what is the ed?", "what is the ending?", "what is the opening?"],
+         "responses": ["**DE DE MOUSE** and **Mito** are composing the series music.\nOP: \"Sudachi no Uta\" by Anemoneria\nED: \"Life is Cider\" by Anemoneria"],
+         "context_set": ""
+        },
+        {"tag": "synopsis",
+         "patterns": ["what is the anime about?", "what is the story about","anime synopsis", "anime summary", "what is the anime?", "what is wonder egg priority about?", "wonder egg priority synopsis", "wonder egg priority summary", "what is wonder egg priority?", "what is WEP about?", "WEP synopsis", "WEP summary", "what is WEP?"],
+         "responses": ["**Story Synopsis**\nA story of troubled girls, spun by screenwriter Shinji Nojima in the world of anime.\n\nLed by a mysterious voice while on a midnight stroll, 14-year-old girl Ai Ooto picks up an egg. The voice coaxes her: \"If you want to change the future, you only need to choose now. Now, believe in yourself and break the egg.\" \n\nWhat awaits Ai after the breaking of the egg..."],
+         "context_set": ""
+        },
+        {"tag": "episode_list",
+        "patterns": ["what are the episode?", "episode list", "all episodes", "every episode"],
+        "responses": ["Episode list will be released in Milim version 1.6!"],
+        "context_set": ""
+        },
+        {"tag": "past_episodes",
+        "patterns": ["when did ep come out?", "when did episode come out?", "ep release date", "epsisode release date"],
+        "responses": ["Let me think..."],
+        "context_set": ""
+        },
+        {"tag": "characters",
+        "patterns": ["who are the characters", "series characters", "what are the characters", "protagonist", "who is ai", "who is rika", "who is Neiru", "who is Momoe", "rika", "Neiru", "Momoe"],
+        "responses": ["WEP characters list will be released in a later version of Milim!"],
+        "context_set": ""
+        },
+
+
+        {"tag": "no_replies",
+        "patterns": ["what is this episode about?", "what is episode about", "do you do next ep", "what is in next ep"],
+        "responses": [" "],
+        "context_set": ""
+        },
+        {"tag": "confirmation",
+        "patterns": ["alright", "ic", "okay", "thanks", "aight", "yes", "correct", "cool"],
+        "responses": [" "],
+        "context_set": ""
+        }
+]
+}

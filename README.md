@@ -60,9 +60,9 @@ There are three neuron layers written in the program but only two of which are a
 - nltk (veriosn==3.5)
 - pickle
 
-The program specifically requires tensorflow version 1.13.2 or lower to function correctly. Newer version of tensorflow has missing components. VSCode (for some reason) does not support version 1.13.2 and cannot extract/download any distribution of tensorflow lower than version 2.xx.x. In other words, as of right now, the program can only be excuted in the terminal. 
+The program specifically requires tensorflow version 1.13.2 or lower to function correctly. Newer versions of tensorflow has missing components. VSCode (for some reason) does not support version 1.13.2 and cannot extract/download any distribution of tensorflow lower than version 2.xx.x. In other words, as of right now, the program can only be excuted in the terminal. 
 
-Python 3.6 is also required for this process. Python 3.7 currently doesn't function correctly with tensorflow version 1.13.2. The use of anaconda is recommended,
+Python 3.6 is also required for this process. Python 3.7 currently doesn't function correctly with tensorflow version 1.13.2. The use of anaconda is recommended.
 
 Note: Program will not re-learn unless the previous learning data has been erased.
 

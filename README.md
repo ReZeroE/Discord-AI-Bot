@@ -79,7 +79,7 @@ Most of the following functions utilized the deep-learning feature to understand
 - JP to EN Translation (Passive Function)
    - Scans user input to make sure no English alphabet is contained in the message: `re.search('[a-z][A-Z]', user_input) == None`
    - Translations including English alphabets are generally very inaccurate.
-   - Used the `google_trans_new` module.
+   - Uses the `google_trans_new` module.
    - Example commands: `がうるぐら` -> "Gwra Gura"
 - Anime Info
    - Very Similar to Auto Chat. Respond with pre-programmed answers.
@@ -94,7 +94,7 @@ Most of the following functions utilized the deep-learning feature to understand
 
 ## Private Admin Functions
 
-All of the following functions does not require deep-learning and only takes in pre-specified commands. A password will be auto generated when these functions are called upon and the admin has 10 seconds to enter the password in the terminal before a time-out occurrs. All of the following functions are password gated.
+None of the following functions require deep-learning and they only take in pre-specified commands. A password will be auto generated when these functions are called upon and the admin has 10 seconds to enter the password in the terminal before a time-out occurrs. All of the following functions are password gated.
 - Message Purge
    - Erase a given number of messages after a certain number of seconds.
    - Example command: `//purge 50`

@@ -48,7 +48,7 @@ There are three neuron layers written in the program but only two of which are a
  2. Neuron Each Layer
  3. Epoch + Batch-size
  
- The values I've implements are of the best accuracy and efficiency as of right now.
+ The values I've implemented are of the best accuracy and efficiency as of right now.
 
 - Neuron number can be changed on: `net = tflearn.fully_connected(net, 16)`
 - Epoch and batch-size can be edited on: `model.fit(training, output, n_epoch=2000, batch_size=10, show_metric=True)`

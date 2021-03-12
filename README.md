@@ -31,6 +31,10 @@ This is a deep-learning AI bot programmed in python with the categorical feature
 - [x] Message Scan
 - [ ] Translation Report
 
+**Currently Under Development**
+- [x] User ID Recognition
+- [x] User Info Storage and Extraction
+
 # Bot Detail
 The bot is programmed in python with its learning model based on the categorical feature of One-Hot encoding. Learning data are from WEP json file.
 

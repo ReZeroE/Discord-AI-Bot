@@ -1,7 +1,7 @@
 # DiscordAIBot
 This is a deep-learning AI bot programmed in python with the categorical feature of one-hot encoding.
 
-**Note:** This version of the code is for display only. Code blocks with sensitive information on the bot token and similar has been edited. 
+**Note:** This version of the code is for display only. Code blocks with sensitive information on the discord bot's private token or similar has been edited. 
 
 # General Info
  - Name: Milim

@@ -8,7 +8,7 @@ This is a deep-learning AI bot programmed in python with the categorical feature
  - Language: python
  - Control Prefix: `//`
  - Latest Version: 1.5 (Beta Testing)
- - Current Status: active
+ - Current Status: inactive (under maintenance)
  - Activate Discord: [Link](https://discord.gg/RxahGwTGmG)
  
  # Primary Functions

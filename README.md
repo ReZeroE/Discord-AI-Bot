@@ -47,7 +47,7 @@ The bot is programmed in python with its learning model based on the categorical
 - Training Epoch: 2000
 - Training Batch-size: 15
 
-I've also tried the multi-regression models that are generally used for data evalution/prediction and it did not work very well in this case. 
+I've also tried the multi-dimensional regression models that are generally used for data evalution/prediction and it did not work very well in this case. 
 
 There are three neuron layers written in the program but only two of which are active at the moment. I've ran multiple tests calibrating the following values for the best accuracy and efficiency with the given input (json):
  1. Neuron Layers

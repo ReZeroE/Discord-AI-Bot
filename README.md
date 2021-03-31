@@ -3,9 +3,11 @@ This is a deep-learning AI bot programmed in python with the categorical feature
 
 **Note:** This version of the code is for display only. Code blocks with sensitive information on the discord bot's private token or similar has been edited. 
 
+Milim version 1.6 has been recently completed. The update will be coming soon.
+
 # General Info
  - Name: Milim
- - Language: python
+ - Language: Python
  - Control Prefix: `//`
  - Latest Version: 1.5 (Beta Testing)
  - Current Status: inactive (under maintenance)
